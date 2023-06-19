@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/rushd/Downloads/laptop%20pink%20heart%20aura%20wallpaper.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h1 {
+    text-align: center;
+    color: #ff80ab;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .calendar {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fce4ec;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .calendar-header h2 {
+    color: #ff80ab;
+    margin: 0;
+  }
+
+  .calendar-header button {
+    padding: 5px 10px;
+    background-color: #ff80ab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .calendar-table {
+    width: 100%;
+  }
+
+  .calendar-table th,
+  .calendar-table td {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .calendar-table th {
+    color: #ff80ab;
+  }
+
+  .calendar-table td {
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .calendar-table td:hover {
+    background-color: #ff80ab;
+    color: #fff;
+  }
+
+  .calendar-table .selected-day {
+    background-color: #ff80ab;
+    color: #fff;
+  }
+
+  .heart-icon {
+    color: #ff80ab;
+    margin-right: 5px;
+  }
+
+  .event-container {
+    margin-top: 20px;
+  }
+
+  .event-container input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .event-container button {
+    padding: 5px 10px;
+    background-color: #ff80ab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .event-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .event-list li .heart-icon {
+    margin-right: 5px;
+  }
+
+  .event-list li .delete-event-btn {
+    margin-left: auto;
+    background-color: #ff80ab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px 10px;
+  }

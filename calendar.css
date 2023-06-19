@@ -1,0 +1,44 @@
+body {
+    background-image: url('C:/Users/rushd/Downloads/laptop%20pink%20heart%20aura%20wallpaper.jpeg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
+
+
+h1 {
+  color: #ff3478;
+  text-align: center;
+}
+
+.heart-icon {
+  color: #ff3478;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff3478;
+  color: #ffacc8;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+div.container {
+text-align: center;
+}
+
+ul.myUL {
+display: inline-block;
+text-align: left;
+}

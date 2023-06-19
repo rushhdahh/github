@@ -1,0 +1,27 @@
+audio{
+    display: none;
+}
+
+body {
+
+
+background-image: url('C:/Users/rushd/Downloads/laptop%20pink%20heart%20aura%20wallpaper.jpeg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
+
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+
+
+
+.top-left {
+position: absolute;
+top: 8px;
+left: 0;
+}
